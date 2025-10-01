@@ -17,6 +17,10 @@ The player must click the button corresponding to the **color word**, not the fo
 - CSS
 - JavaScript
 
+## Live Demo
+
+Play the game online here: [Color Click Game](https://Aisha173.github.io/ColorClickGame/)
+
 ## Screenshot
 
 ![Color Click Game Screenshot](screenshot.png)
