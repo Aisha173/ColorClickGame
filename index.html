@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAME</title>
+    <link rel="stylesheet" href="Game.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Click the color!</h1>
+
+      <!-- Display the color word -->
+      <p class="wordColor" id="wordColor"></p>
+
+      <!-- Color buttons -->
+      <button class="redButton" onclick="checkAnswer('red')"></button>
+      <button class="blueButton" onclick="checkAnswer('blue')"></button>
+      <button class="greenButton" onclick="checkAnswer('green')"></button>
+      <button class="yellowButton" onclick="checkAnswer('yellow')"></button>
+
+      <br />
+
+      <!-- Display score -->
+      <p class="score" id="score">Score: 0</p>
+      <br />
+
+      <!-- Start game button -->
+      <button id="startgamebtn" onclick="startGame()">START GAME</button>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="Game.js"></script>
+  </body>
+</html>
